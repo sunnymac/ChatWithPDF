@@ -1,0 +1,24 @@
+# Ignore virtual environment
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore FAISS and embedding files
+*.index
+*.npy
+*.pkl
+
+# Ignore Ollama model cache (optional if it's local)
+ollama/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Streamlit temporary files
+.streamlit/
+
+# Ignore logs
+*.log
